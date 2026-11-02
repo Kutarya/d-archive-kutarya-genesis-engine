@@ -1,0 +1,3 @@
+﻿simulasyon_saniyesi,canli_sayisi,ortalama_enerji,ortalama_nesil,ortalama_hareket_hizi,ortalama_algilama,ortalama_boyut,genetik_cesitlilik_0_1,dogum,olum,besin,yasayan_kurucu_soy,tuketilen_besin
+0,300,135.37421083288478,0,0,134.42544917099488,5.646906137357082,0.23171057719140614,0,0,650,300,0
+1,301,136.41180199600805,0,34.17260000156562,134.21453929469888,5.640815140742602,0.23189052494635565,0,0,616,301,70

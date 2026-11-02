@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "1.1.0",
+  "options": {
+    "seeds": [
+      "multi-a",
+      "multi-b",
+      "multi-c"
+    ],
+    "trainingSeconds": 1,
+    "assaySeconds": 1
+  },
+  "experiments": [
+    {
+      "seed": "multi-a",
+      "trainingSeconds": 1,
+      "assaySeconds": 1,
+      "births": 0,
+      "deaths": 0,
+      "finalPopulation": 80,
+      "maxGeneration": 0,
+      "selectionPossible": false,
+      "comparisons": [
+        {
+          "seed": "multi-a/assay-01",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.125,
+            "finalEnergyPerFounder": 135.40163245777435,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.125,
+            "finalEnergyPerFounder": 135.40163245777435,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        },
+        {
+          "seed": "multi-a/assay-02",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.075,
+            "finalEnergyPerFounder": 134.68945677116494,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.075,
+            "finalEnergyPerFounder": 134.68945677116494,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        }
+      ]
+    },
+    {
+      "seed": "multi-b",
+      "trainingSeconds": 1,
+      "assaySeconds": 1,
+      "births": 0,
+      "deaths": 0,
+      "finalPopulation": 80,
+      "maxGeneration": 0,
+      "selectionPossible": false,
+      "comparisons": [
+        {
+          "seed": "multi-b/assay-01",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.175,
+            "finalEnergyPerFounder": 133.19977140430868,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.175,
+            "finalEnergyPerFounder": 133.19977140430868,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        },
+        {
+          "seed": "multi-b/assay-02",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.05,
+            "finalEnergyPerFounder": 131.2474564014422,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.05,
+            "finalEnergyPerFounder": 131.2474564014422,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        }
+      ]
+    },
+    {
+      "seed": "multi-c",
+      "trainingSeconds": 1,
+      "assaySeconds": 1,
+      "births": 0,
+      "deaths": 0,
+      "finalPopulation": 80,
+      "maxGeneration": 0,
+      "selectionPossible": false,
+      "comparisons": [
+        {
+          "seed": "multi-c/assay-01",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.15,
+            "finalEnergyPerFounder": 136.2200124672235,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.15,
+            "finalEnergyPerFounder": 136.2200124672235,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        },
+        {
+          "seed": "multi-c/assay-02",
+          "baseline": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.175,
+            "finalEnergyPerFounder": 136.87002571428263,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 0.9999999999999998,
+            "foodPerFounder": 0.175,
+            "finalEnergyPerFounder": 136.87002571428263,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 0
+        }
+      ]
+    }
+  ],
+  "meanBaselineSurvival": 0.9999999999999999,
+  "meanSelectedSurvival": 0.9999999999999999,
+  "meanSurvivalDelta": 0,
+  "meanFoodDelta": 0,
+  "elapsedSeconds": 0.22270000000298024,
+  "statisticalSignificanceClaimed": false,
+  "runtime": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "fixedStepSeconds": 0.016666666666666666
+  }
+}

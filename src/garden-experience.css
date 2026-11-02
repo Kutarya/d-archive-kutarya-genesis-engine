@@ -1,0 +1,214 @@
+/* Garden 1.4: keep the living world within reach. */
+.garden-mode { --garden-ink: #304b3a; --garden-muted: #617357; }
+.garden-mode .main-header { min-height: 80px; padding: 15px 0; }
+.garden-intro { display: flex; align-items: center; gap: 22px; margin: 18px 0; padding: 19px 23px; border: 1px solid #dde5cf; border-radius: 22px; background: linear-gradient(110deg, #edf3e3, #fff9ed 65%, #faeee0); }
+.intro-mascot { position: relative; display: grid; place-items: center; width: 74px; height: 74px; flex-shrink: 0; border-radius: 50%; background: #dce9c7; }
+.intro-mascot .garden-creature { width: 50px; height: 50px; }
+.intro-mascot > span:last-child { position: absolute; right: -2px; top: -4px; color: #bf8b33; font-size: 23px; }
+.intro-copy { flex: 1; min-width: 0; }
+.intro-copy > span { display: flex; align-items: center; gap: 6px; color: #77643d; font-size: 9px; letter-spacing: 1.4px; font-weight: 700; }
+.intro-copy h2 { margin: 7px 0; color: var(--garden-ink); font-size: clamp(22px, 2vw, 29px); letter-spacing: -.7px; line-height: 1.2; }
+.intro-copy h2 em { font-style: normal; color: #b46543; }
+.intro-copy p { margin: 0; color: var(--garden-muted); font-size: 12px; line-height: 1.6; }
+.intro-actions { display: flex; align-items: center; gap: 8px; }
+.intro-actions button { min-height: 46px; padding: 0 16px; font-size: 12px; white-space: nowrap; }
+.intro-actions button:first-child { color: #fffdf4; background: #527b48; border-color: #527b48; box-shadow: 0 3px 0 #35562e; }
+.intro-actions button:first-child:hover { background: #42693a; }
+.intro-actions button:last-child { background: #fffaf1; border-color: #d8d9be; color: #655e37; }
+.garden-mode .telemetry { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 20px; }
+.garden-mode .telemetry > div { padding: 12px 17px; border-radius: 14px; gap: 12px; }
+.garden-mode .telemetry > div > span { gap: 3px; color: #5a6d50; font-size: 11px; }
+.garden-mode .telemetry strong { font-size: 25px; color: #304b3a; }
+.garden-mode .laboratory { grid-template-columns: minmax(0, 1fr) 278px; gap: 22px; }
+.garden-mode .world-heading { min-height: 54px; padding: 0 0 13px; gap: 10px; }
+.garden-mode .world-heading h2 { font-size: 23px; color: #304b3a; }
+.garden-mode .world-heading .section-kicker { font-size: 8px; letter-spacing: 1.3px; color: #6a7958; }
+.garden-mode .world-heading h2 > span { color: #597345; }
+.garden-mode .world-dimensions { display: none; }
+.garden-view-actions { display: flex; gap: 6px; align-items: center; margin-left: auto; }
+.garden-view-actions button { min-height: 40px; padding: 0 10px; gap: 6px; font-size: 11px; color: #506c42; background: #f7faed; border-color: #dce5cd; white-space: nowrap; }
+.garden-view-actions button:first-child { border-color: #adc396; background: #eef5e1; }
+.garden-mode .world-tools { padding: 6px; gap: 7px; margin-bottom: 10px; border-radius: 16px; }
+.garden-mode .tool-palette { gap: 6px; }
+.garden-mode .tool-palette button { min-width: 44px; min-height: 50px; height: 50px; padding: 8px 10px; border-radius: 12px; gap: 7px; color: #506b43; font-size: 12px; }
+.garden-mode .tool-palette button.chosen { color: #fffdf5; background: #557d47; border-color: #557d47; box-shadow: 0 2px 0 #3a5f30; }
+.garden-mode .tool-palette .tool-food { color: #527837; }
+.garden-mode .tool-palette .tool-organism { color: #80629a; }
+.garden-mode .tool-palette .tool-erase { color: #9b7334; }
+.garden-mode .world-playback { flex-basis: auto; border: 0; padding: 0; gap: 4px; }
+.garden-mode .world-playback button { min-width: 44px; min-height: 44px; height: 44px; }
+.garden-mode .world-playback .quick-speed { display: flex; color: #816140; background: #f7eddc; border-color: #e9d9bb; font-size: 13px; font-weight: 700; }
+.garden-mode .world-playback .playback-button { color: #5c603c; background: #f0efde; }
+.garden-mode .world-playback .playback-button span { font-size: 11px; }
+.garden-mode .brush-control { padding: 9px 8px 5px; color: #5e7049; }
+.garden-mode .world-stage { height: clamp(460px, 60vh, 660px); min-height: 400px; border-radius: 23px; border-color: #cbd9b8; box-shadow: inset 0 0 0 1px #fff8; }
+.garden-mode .world-topline { color: #547043; }
+.garden-mode .world-topline > span { background: #ffffeecc; padding: 6px 9px; border-radius: 20px; }
+.garden-mode .world-bottomline { padding: 12px 2px; font-size: 11px; color: #5b7048; }
+.garden-mode .world-bottomline .intervention-receipt { display: none; }
+.garden-mode .world-bottomline > span:last-child { color: #7b846c; }
+.garden-mode .mini-map { width: 124px; }
+.garden-mode .mini-map > small { display: none; }
+.garden-mode .mini-map > svg { height: 74px; }
+.garden-mode .camera-controls { background: #fffff2ed; }
+.garden-action-feedback { position: absolute; z-index: 6; left: 50%; top: 54px; transform: translateX(-50%); display: flex; align-items: center; gap: 9px; max-width: calc(100% - 24px); padding: 12px 18px; border-radius: 30px; background: #fffdf0f5; border: 1px solid #a8c58d; color: #456a32; box-shadow: 0 5px 22px #4c713c22; font-size: 14px; font-weight: 700; text-align: center; pointer-events: none; animation: celebration-arrival .25s ease-out; }
+.garden-action-feedback > svg { flex-shrink: 0; color: #af7f2b; }
+.garden-action-feedback ~ .life-celebration { top: 112px; }
+.garden-mode .garden-companion { padding: 19px; border-color: #dce2cb; border-radius: 21px; }
+.garden-mode .companion-heading > span:first-child { color: #506942; }
+.garden-mode .companion-heading > span:last-child { color: #627c4e; }
+.garden-mode .growth-mascot { padding: 22px 0 20px; }
+.garden-mode .growth-mascot > .garden-creature { width: 68px; height: 68px; }
+.garden-mode .growth-mascot .creature-eyes { box-shadow: 23px 0 #465b3d; }
+.garden-mode .growth-mascot .creature-eyes:after { box-shadow: 23px 0 #fffced; }
+.garden-mode .growth-halo { width: 96px; height: 96px; left: calc(50% - 48px); top: 8px; }
+.garden-mode .garden-companion > h3 { font-size: 19px; color: #486638; }
+.garden-mode .growth-description { font-size: 11px; color: #657455; }
+.garden-mode .growth-path { padding: 13px 0; }
+.garden-mode .growth-path li { min-height: 46px; }
+.garden-mode .growth-path strong { color: #677754; }
+.garden-mode .growth-path small { color: #727e63; font-size: 10px; }
+.garden-mode .growth-path .current strong { color: #806130; }
+.garden-mode .growth-numbers { padding: 12px 0; }
+.garden-mode .growth-numbers strong { color: #4c6b39; }
+.garden-mode .growth-numbers small { font-size: 10px; color: #657455; }
+.garden-mode .companion-tip { margin-top: 14px; padding: 12px; }
+.garden-mode .companion-tip p, .garden-mode .companion-tip strong { color: #75613b; }
+.garden-mode .growth-note { font-size: 10px; color: #6b765c; line-height: 1.6; margin-top: 12px; }
+.garden-mode .little-friend { margin-top: 15px; padding: 13px; }
+.garden-mode .little-friend-title > span, .garden-mode .little-friend small, .garden-mode .little-friend label { color: #60774c; }
+.garden-mode .little-friend > button { color: #4e7036; }
+.garden-discovery { margin-top: 22px; padding: 17px; border: 1px solid #e0e4d3; border-radius: 21px; background: #fffdf6; }
+.discovery-heading { display: flex; align-items: center; gap: 7px; color: #6e7650; margin-bottom: 12px; font-size: 12px; }
+.discovery-heading > svg { color: #b48b40; }
+.discovery-heading > strong { margin-left: auto; padding: 4px 9px; border-radius: 20px; color: #5d783f; background: #eef3df; font-size: 11px; }
+.discovery-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; }
+.discovery-steps > button { display: flex; align-items: center; text-align: left; justify-content: flex-start; min-width: 0; min-height: 84px; padding: 13px; gap: 12px; border: 1px solid #e9dcc6; border-radius: 14px; background: #fcf2e4; color: #866334; }
+.discovery-steps > button:nth-child(2) { background: #eff5e4; border-color: #dce6cb; color: #52733d; }
+.discovery-steps > button:nth-child(3) { background: #f3edf8; border-color: #e1d6eb; color: #806197; }
+.discovery-symbol { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 12px; background: #fff9; flex-shrink: 0; }
+.discovery-steps > button > span:nth-child(2) { min-width: 0; }
+.discovery-steps small { display: block; font-size: 8px; letter-spacing: .8px; margin-bottom: 5px; }
+.discovery-steps strong { display: block; font-size: 13px; line-height: 1.4; }
+.discovery-steps > button > span > span { display: block; margin-top: 4px; font-size: 11px; line-height: 1.5; color: #677354; }
+.discovery-steps > button > svg { margin-left: auto; flex-shrink: 0; }
+.discovery-steps > button.discovered { border-color: #b4c995; }
+.discovered .discovery-symbol { background: #6d8c4f; color: #fff; }
+.garden-mode .exploration-strip { margin-top: 18px; }
+.garden-mode .app-footer { margin-top: 22px; }
+.garden-mode .world-panel.world-focus .world-stage { height: auto; min-height: 0; flex: 1; }
+.garden-mode button:focus-visible { outline: 3px solid #bf8446; outline-offset: 3px; }
+.garden-mode[data-motion=reduced] .garden-action-feedback { animation: none; }
+@media (min-width: 901px) {
+  .garden-mode .garden-companion:has(.little-friend) { display: flex; flex-direction: column; }
+  .garden-mode .garden-companion:has(.little-friend) .companion-heading { order: -2; }
+  .garden-mode .garden-companion:has(.little-friend) .little-friend { order: -1; margin: 16px 0 15px; }
+}
+
+@media (max-width: 1250px) {
+  .intro-actions { flex-direction: column; align-items: stretch; }
+  .intro-actions button { min-height: 40px; }
+  .garden-mode .laboratory { grid-template-columns: minmax(0, 1fr) 255px; gap: 17px; }
+  .garden-mode .world-playback { flex-basis: 100%; border-top: 1px solid #e5e8d7; padding-top: 6px; }
+  .garden-mode .world-playback .playback-button { margin-right: auto; }
+  .garden-mode .world-heading { align-items: flex-start; }
+  .garden-mode .world-heading h2 > span { display: none; }
+  .garden-view-actions button { min-height: 44px; }
+  .discovery-steps > button { gap: 9px; padding: 11px; }
+  .discovery-steps > button > svg { display: none; }
+}
+@media (max-width: 900px) {
+  .garden-mode .laboratory { grid-template-columns: minmax(0, 1fr); }
+  .garden-mode .garden-companion { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 0 24px; }
+  .garden-mode .companion-heading { grid-column: 1 / -1; }
+  .garden-mode .growth-mascot { grid-column: 1; grid-row: 2 / 4; }
+  .garden-mode .garden-companion > h3, .garden-mode .growth-description { grid-column: 1; }
+  .garden-mode .growth-path { grid-column: 2; grid-row: 2 / 6; }
+  .garden-mode .growth-numbers, .garden-mode .companion-tip, .garden-mode .little-friend, .garden-mode .growth-note { grid-column: 1 / -1; }
+  .garden-mode .world-playback { flex-basis: auto; padding: 0; border: 0; }
+  .garden-mode .world-playback .playback-button span { display: none; }
+  .garden-mode .tool-palette button { gap: 6px; }
+  .garden-mode .world-stage { height: 530px; }
+  .garden-intro { gap: 16px; padding: 18px; }
+  .intro-copy h2 { font-size: 24px; }
+  .intro-copy > span { font-size: 8px; letter-spacing: 1px; }
+  .discovery-steps strong { font-size: 12px; }
+}
+@media (max-width: 700px) {
+  .garden-mode { padding: 0 14px; }
+  .garden-mode .main-header { gap: 12px 8px; padding: 14px 0 12px; min-height: 0; flex-wrap: wrap; }
+  .garden-mode .genesis-brand h1 { font-size: 21px; }
+  .garden-mode .genesis-brand h1 em { font-size: 9px; }
+  .garden-mode .header-actions button { min-width: 42px; padding: 0 9px; }
+  .garden-mode .header-actions button > span { display: none; }
+  .garden-mode .view-switch { order: 3; margin: 0 auto; }
+  .garden-mode .view-switch button { min-height: 36px; padding: 0 21px; font-size: 11px; }
+  .garden-intro { position: relative; flex-wrap: wrap; margin: 14px 0; padding: 16px; gap: 12px; border-radius: 18px; }
+  .intro-mascot { width: 50px; height: 50px; }
+  .intro-mascot .garden-creature { width: 37px; height: 38px; }
+  .intro-mascot .creature-eyes { box-shadow: 12px 0 #465b3d; }
+  .intro-mascot .creature-eyes:after { box-shadow: 12px 0 #fffced; }
+  .intro-mascot > span:last-child { font-size: 17px; }
+  .intro-copy > span { font-size: 7px; letter-spacing: .6px; gap: 4px; }
+  .intro-copy > span > svg { width: 11px; }
+  .intro-copy h2 { font-size: 21px; margin: 5px 0 0; line-height: 1.25; }
+  .intro-copy p { display: none; }
+  .intro-actions { flex-direction: row; width: 100%; gap: 8px; }
+  .intro-actions button { flex: 1; min-width: 0; min-height: 44px; font-size: 11px; padding: 0 8px; gap: 6px; }
+  .intro-actions button:first-child > svg:last-child { display: none; }
+  .garden-mode .telemetry { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 0 0 17px; }
+  .garden-mode .telemetry > div { padding: 9px 8px; border-radius: 12px; }
+  .garden-mode .telemetry > div > svg, .garden-mode .telemetry > div > small { display: none; }
+  .garden-mode .telemetry > div > span { gap: 5px; font-size: 8px; line-height: 1.2; }
+  .garden-mode .telemetry strong { font-size: 21px; letter-spacing: -.5px; }
+  .garden-mode .telemetry strong em { font-size: 8px; margin-left: 2px; }
+  .garden-mode .world-heading { min-height: 51px; padding-bottom: 11px; align-items: center; }
+  .garden-mode .world-heading h2 { font-size: 20px; margin-top: 4px; }
+  .garden-mode .world-heading .section-kicker { font-size: 7px; letter-spacing: .6px; }
+  .garden-view-actions { gap: 4px; }
+  .garden-view-actions button { width: 44px; height: 44px; padding: 0; }
+  .garden-view-actions button > span { display: none; }
+  .garden-mode .tool-palette { flex-basis: 100%; gap: 5px; }
+  .garden-mode .tool-palette button { height: 52px; min-height: 52px; padding: 6px 4px; font-size: 11px; flex-direction: row; gap: 5px; }
+  .garden-mode .tool-palette button > svg { width: 19px; }
+  .garden-mode .world-playback { flex-basis: 100%; padding-top: 6px; border-top: 1px solid #e5e8d7; }
+  .garden-mode .world-playback .playback-button span { display: inline; font-size: 12px; }
+  .garden-mode .world-playback .quick-speed { display: flex; }
+  .garden-mode .world-stage { height: 470px; min-height: 390px; border-radius: 19px; }
+  .garden-mode .world-topline { inset: 10px 10px auto; gap: 5px; }
+  .garden-mode .world-topline > span { padding: 5px 6px; font-size: 8px; }
+  .garden-mode .mini-map { width: 95px; }
+  .garden-mode .mini-map > svg { height: 58px; }
+  .garden-mode .world-legend { left: 10px; bottom: 22px; gap: 7px; font-size: 8px; }
+  .garden-mode .world-bottomline { font-size: 10px; padding: 11px 1px; }
+  .garden-mode .world-bottomline > span:last-child { display: none; }
+  .garden-action-feedback { font-size: 12px; top: 47px; width: max-content; padding: 10px 14px; }
+  .garden-discovery { margin-top: 17px; padding: 13px; border-radius: 18px; }
+  .discovery-steps { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .discovery-steps > button { min-height: 70px; padding: 11px; gap: 12px; }
+  .discovery-steps strong { font-size: 13px; }
+  .discovery-steps small { font-size: 8px; }
+  .discovery-steps > button > span > span { font-size: 11px; }
+  .discovery-steps > button > svg { display: block; }
+  .garden-mode .garden-companion { grid-template-columns: 125px minmax(0, 1fr); gap: 0 16px; padding: 17px; }
+  .garden-mode .garden-companion > h3 { font-size: 16px; }
+  .garden-mode .growth-path li { gap: 9px; }
+  .garden-mode .growth-path strong { font-size: 11px; }
+  .garden-mode .growth-path small { font-size: 9px; }
+  .garden-mode .growth-description { font-size: 10px; }
+  .garden-mode .world-panel.world-focus .world-stage { height: auto; min-height: 0; }
+}
+@media (max-width: 360px) {
+  .garden-mode { padding: 0 10px; }
+  .garden-mode .genesis-brand { gap: 7px; }
+  .garden-mode .genesis-brand h1 { font-size: 18px; }
+  .garden-mode .brand-orbit { width: 32px; height: 37px; }
+  .garden-mode .header-actions { gap: 1px; }
+  .garden-mode .header-actions button { min-width: 36px; padding: 0 7px; }
+  .garden-mode .header-actions .motion-toggle { min-width: 32px; }
+  .garden-mode .tool-palette button { flex-direction: column; gap: 3px; font-size: 10px; }
+  .garden-mode .telemetry strong { font-size: 18px; }
+  .intro-copy h2 { font-size: 19px; }
+  .intro-copy > span { font-size: 6px; }
+  .garden-mode .garden-companion { grid-template-columns: 105px minmax(0, 1fr); gap: 0 10px; padding: 14px; }
+}

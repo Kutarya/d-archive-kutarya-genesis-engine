@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-16T07:19:33.528Z",
+  "node": "v24.15.0",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "engineOnly": true,
+  "browserFpsMeasured": false,
+  "results": [
+    {
+      "requestedPopulation": 500,
+      "finalPopulation": 500,
+      "measuredSteps": 300,
+      "meanStepMs": 1.067569333333334,
+      "medianStepMs": 1.0135000000000218,
+      "p95StepMs": 1.37469999999999,
+      "headlessStepsPerSecond": 936.7073114376952,
+      "sixtyHzCpuBudgetFraction": 0.06405416000000004
+    },
+    {
+      "requestedPopulation": 1000,
+      "finalPopulation": 1000,
+      "measuredSteps": 300,
+      "meanStepMs": 2.092534666666657,
+      "medianStepMs": 2.0336999999999534,
+      "p95StepMs": 2.509700000000066,
+      "headlessStepsPerSecond": 477.8893348481385,
+      "sixtyHzCpuBudgetFraction": 0.12555207999999943
+    }
+  ]
+}

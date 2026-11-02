@@ -1,0 +1,130 @@
+{
+  "runtime": "v24.15.0",
+  "method": "Gerçek motor; her 6/10 simülasyon saniyesinde en düşük enerjili canlı yakınında 12 besin. Ağ/DNA değişikliği veya zorunlu başarı yok. Node pilotu browser veya bütün oyuncular için garanti değildir.",
+  "results": [
+    {
+      "challenge": "caretaker",
+      "assisted": false,
+      "finalPopulation": 104,
+      "births": 74,
+      "foodAdded": 0,
+      "status": "failed",
+      "goals": [
+        {
+          "key": "population",
+          "label": "Sonunda 40 canlı",
+          "target": 40,
+          "value": 104,
+          "achieved": true
+        },
+        {
+          "key": "births",
+          "label": "En az 8 gerçek doğum",
+          "target": 8,
+          "value": 74,
+          "achieved": true
+        },
+        {
+          "key": "food",
+          "label": "En az 48 besin bırak",
+          "target": 48,
+          "value": 0,
+          "achieved": false
+        }
+      ]
+    },
+    {
+      "challenge": "caretaker",
+      "assisted": true,
+      "finalPopulation": 106,
+      "births": 89,
+      "foodAdded": 180,
+      "status": "complete",
+      "goals": [
+        {
+          "key": "population",
+          "label": "Sonunda 40 canlı",
+          "target": 40,
+          "value": 106,
+          "achieved": true
+        },
+        {
+          "key": "births",
+          "label": "En az 8 gerçek doğum",
+          "target": 8,
+          "value": 89,
+          "achieved": true
+        },
+        {
+          "key": "food",
+          "label": "En az 48 besin bırak",
+          "target": 48,
+          "value": 180,
+          "achieved": true
+        }
+      ]
+    },
+    {
+      "challenge": "balance",
+      "assisted": false,
+      "finalPopulation": 32,
+      "births": 44,
+      "foodAdded": 0,
+      "status": "failed",
+      "goals": [
+        {
+          "key": "population",
+          "label": "Sonunda 25 canlı",
+          "target": 25,
+          "value": 32,
+          "achieved": true
+        },
+        {
+          "key": "births",
+          "label": "En az 40 gerçek doğum",
+          "target": 40,
+          "value": 44,
+          "achieved": true
+        },
+        {
+          "key": "food",
+          "label": "En az 72 besin bırak",
+          "target": 72,
+          "value": 0,
+          "achieved": false
+        }
+      ]
+    },
+    {
+      "challenge": "balance",
+      "assisted": true,
+      "finalPopulation": 28,
+      "births": 52,
+      "foodAdded": 144,
+      "status": "complete",
+      "goals": [
+        {
+          "key": "population",
+          "label": "Sonunda 25 canlı",
+          "target": 25,
+          "value": 28,
+          "achieved": true
+        },
+        {
+          "key": "births",
+          "label": "En az 40 gerçek doğum",
+          "target": 40,
+          "value": 52,
+          "achieved": true
+        },
+        {
+          "key": "food",
+          "label": "En az 72 besin bırak",
+          "target": 72,
+          "value": 144,
+          "achieved": true
+        }
+      ]
+    }
+  ]
+}

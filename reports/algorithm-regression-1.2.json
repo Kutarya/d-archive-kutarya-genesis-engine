@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-12T19:54:29.038Z",
+  "checks": [
+    {
+      "seed": "genesis-a",
+      "resultExactlyMatches1_0": true,
+      "births": 186,
+      "finalPopulation": 144
+    },
+    {
+      "seed": "genesis-b",
+      "resultExactlyMatches1_0": true,
+      "births": 208,
+      "finalPopulation": 173
+    },
+    {
+      "seed": "genesis-c",
+      "resultExactlyMatches1_0": true,
+      "births": 201,
+      "finalPopulation": 167
+    }
+  ],
+  "simulationRulesUnchanged": true
+}

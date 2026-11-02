@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-12T20:05:23.113Z",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "checks": [
+    "Sürüklenen fırça gerçek besin ekliyor, kamerayı taşımıyor",
+    "Besin aracında sağ tuş yalnız kamerayı taşıyor",
+    "Tehlike ekleme ve temizleme gerçek dünya bölgelerini değiştiriyor",
+    "Mini harita gerçek kamera merkezini değiştiriyor",
+    "Mini haritanın klavye kontrolü simülasyonu yanlışlıkla başlatmıyor",
+    "Odak görünümü büyüyor; Escape ve klavye erişimi güvenli dönüyor",
+    "Kullanım rehberi gerçek kontrolleri açıklıyor ve kapanıyor",
+    "İlk temas gerçek seçim/beyin/24 besin ile tamamlanıyor ve motor duruyor",
+    "Yeniden dene görev evrenini ve bütçeyi yeniden kuruyor",
+    "Serbest keşif dünyayı koruyor ve görev kısıtlarını kaldırıyor",
+    "Yaşamı koru: zamanlı hedefler gerçek Worker pilotunda tamamlanıyor",
+    "Kıtlık dengesi: zamanlı hedefler gerçek Worker pilotunda tamamlanıyor",
+    "Mobil dokunma besin ekliyor; iki parmak zoom boyama yapmıyor ve yatay taşma yok"
+  ],
+  "errors": [],
+  "trials": [
+    {
+      "title": "Yaşamı koru",
+      "population": 113,
+      "births": 89,
+      "elapsed": 90,
+      "status": "mission-outcome complete"
+    },
+    {
+      "title": "Kıtlık dengesi",
+      "population": 42,
+      "births": 54,
+      "elapsed": 120,
+      "status": "mission-outcome complete"
+    }
+  ],
+  "successful": true
+}

@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-12T18:12:43.010Z",
+  "realWorkerUsed": true,
+  "backgroundProtocolStopsAllSimulationChanges": true,
+  "resumesWithoutCatchup": true,
+  "resumedSteps": 15,
+  "nativeTabVisibilityVerified": false,
+  "note": "Headless Edge sekme değişiminde visible kalıyor; burada gerçek Worker görünürlük mesajı sınandı. Yerel sekme görünürlüğü otomatik testi ayrı ve doğrulanmış değil."
+}

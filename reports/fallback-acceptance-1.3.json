@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-16T07:38:02.383Z",
+  "results": [
+    {
+      "graphicsApisDisabledForTest": "webgl",
+      "successful": true,
+      "engineContinues": true,
+      "pageErrors": []
+    },
+    {
+      "graphicsApisDisabledForTest": "all",
+      "successful": true,
+      "engineContinues": true,
+      "pageErrors": []
+    }
+  ],
+  "simulatedApiFailure": true
+}

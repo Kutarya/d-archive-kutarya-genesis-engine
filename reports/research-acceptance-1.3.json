@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-16T07:35:30.848Z",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "checks": [
+    "1.0 kayıt dosyası DNA/RNG/zaman bütünlüğüyle yükleniyor",
+    "Tek adım tam bir tick ve doğru motor durumu üretiyor (Node/Edge float toleransı 1e-9)",
+    "Bir saniye ilerleme sabit adım sayısını doğru kullanıyor",
+    "Klavye adımı çalışıyor; metin alanında motoru ilerletmiyor",
+    "Gen dağılımı ve ortalama gerçek dışa aktarılmış DNA ile eşleşiyor",
+    "CSV dışa aktarma bütün gerçek geçmiş örneklerini koruyor",
+    "Gerçek ilerleme ve iptal çalışıyor; kısmi deney sonuç gibi gösterilmiyor",
+    "Browser Worker gerçek eşlenmiş ölçümleri raporluyor; işaret ve renk sonuçla eşleşiyor",
+    "Aynı Edge ortamı ve tohum yeni Worker ile aynı tam deney sonucunu üretiyor",
+    "Tam deney boyunca açık evrenin RNG/DNA/enerji/zamanı değişmiyor",
+    "Senaryo seçimi mevcut evreni değiştirmiyor; Yeni evren ile gerçek koşullar uygulanıyor",
+    "390px araştırma kontrolleri kullanılabilir; sonuç tablosu kendi içinde kayıyor"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "successful": true,
+  "experiment": {
+    "elapsedSeconds": 15.27879999999702,
+    "survivalDelta": -0.28020833333167516,
+    "foodDelta": 5.2
+  }
+}

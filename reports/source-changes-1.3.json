@@ -1,0 +1,124 @@
+{
+  "baseline": "Genesis-1.2.0-source-20261016-100328.zip",
+  "baselineSHA256": "254c9c749b905667e11953ae32b9d29fe4969b9116279ca3e3f5c02324680fb5",
+  "changed": [
+    {
+      "path": "src/Genesis.css",
+      "before": "525b131f88fc74479db258cefcc005f50e7b330d26356a9c5f209f50b42801b1",
+      "after": "5ca837d67001c08581f90694d9dab25a51d20f4368bfae14dd9689707ebcc98d"
+    },
+    {
+      "path": "src/GenesisApp.tsx",
+      "before": "9c52540a4db9e97c9e8bb9fb5532798f77cdd6be350824b2fb06896b8e4b8c58",
+      "after": "455b8ef279c109c6518ad0e4439b2afabf789fda8ee27d3701be3ed3d15c0ba1"
+    },
+    {
+      "path": "src/components/Chart.tsx",
+      "before": "109e2001d1b4eb6b436c3a828c50350366ee6388bd07c7cca8ea8589af0e37fa",
+      "after": "f095099c6021cff78ede5b889404df445d1a8710a4a912ec24dbddbc58ed58e8"
+    },
+    {
+      "path": "src/components/MiniMap.tsx",
+      "before": "ccf700bc480554c14bf020e58efd2ff735077aa00505dbbfc77c14464c7c72fc",
+      "after": "8a2842b3b93b357a90ca784747b58a100d6f0a6402029818c606b39a1fb3363b"
+    },
+    {
+      "path": "src/components/WorldTools.tsx",
+      "before": "1cdef632c379b205bf120ecda4d7305f6f60f6920f5c6aa7863fc85f1e7e9cca",
+      "after": "d2cc4898efbbb995c8fe80a6fe17d613d872879352d4221ab6b5a53eb2f514f8"
+    },
+    {
+      "path": "src/render/WorldRenderer.ts",
+      "before": "f79f00dfd6d21a6343861f64185a345e4a88e1b3cebcf5afbff92b7056bb4a47",
+      "after": "dd58c4a26d8e81185cd98c2fa1530493c2b51cd5e35a855d0a1f5fce824ba2e2"
+    },
+    {
+      "path": "scripts/browser-check.mjs",
+      "before": "bf851656d842630f795389df2e5c39e4ba73433f28f14e6fd29c619e02cea981",
+      "after": "2d861d413ca97f985f774af9ddd74d331cd5e9bfbaed7e43e40186bfcd2ab15b"
+    },
+    {
+      "path": "scripts/browser-perf.mjs",
+      "before": "6bee961accd02316e94279d1f1ab543e483025f6ef2be3ccd1546b560abe65f2",
+      "after": "062c46fd6c8fe5e6d4c9944dc1ee8c84f4fd06bb1dbefc0714efdc32a32c914f"
+    },
+    {
+      "path": "scripts/fallback-check.mjs",
+      "before": "d946accc321f46e3d1afed83b5f1b996536d6ee15b2c7773a13130a1a766b0ad",
+      "after": "a3a30d0e4977c7e2eb1017827febb3d4a550deef5d16c061dc18e4294ee9f552"
+    },
+    {
+      "path": "scripts/multiseed-check.mjs",
+      "before": "bbd35415a8d0016a426589186c7f5d398d9ca032a71f49f20bdb97d94423ce09",
+      "after": "bc951a642fe218439ef975939694f1ccddc90bc5620872ef0023b81e1112c652"
+    },
+    {
+      "path": "scripts/play-check.mjs",
+      "before": "d3f537c3e04860b76c896086fdec56bd9d69d701e10efb46fcf5025bebe4a9f2",
+      "after": "14d7fd238f9e09a7d94cf7c8aec76bc6d424c95821d57e6f7e515147a00e80ad"
+    },
+    {
+      "path": "scripts/research-check.mjs",
+      "before": "db8a8b9ff7e14d3399a078fab37c2bdfc30e90b4ab9253f458dfe9e37f8de86d",
+      "after": "01974695bdd248367f6d51c3e4bdb8ce9910ab282d7e1224db38911d8f002e55"
+    },
+    {
+      "path": "public/genesis.svg",
+      "before": "258f78adfceb48aaec2e27725f753f5dc85ee1206f0ece6231a94b7cdcb4fe46",
+      "after": "05915733eaebe02e6d5bb6983647b6e187fbd2b2f5568bd71d3d5c5c846ad4bb"
+    },
+    {
+      "path": "package.json",
+      "before": "5e32f918798e859f92891714c0da0c3db24b7ddde907162799fc8df5ca935f5d",
+      "after": "fedf2b7f69af48daf57bec12fa72412bf4bce4a2d1da157258934c773ca9f8e7"
+    },
+    {
+      "path": "package-lock.json",
+      "before": "ad42c79304d10813f8815c9ab0dc5a3503ddb0501a9ff5982f623cc61f551b78",
+      "after": "9d32e40e933ec458ba99e2564d5c9fa0b72accbb15feaa9b85729556b5b74e1d"
+    },
+    {
+      "path": "index.html",
+      "before": "245d8a8e3127755f15b1d1eb315d04d2951b84b271baa214dccca584f8da6e02",
+      "after": "80bf151cb420a6f84f40efc98fd3c57ce48eb392fbeb480ace4ee31a99e9598c"
+    },
+    {
+      "path": "README.md",
+      "before": "68b6729869945de0f28d5a87abcab7f593731cc4f35885e868efa7b9a8f0cae1",
+      "after": "ad8d6cf6dbdb247c3a63a7038c00c3ff94149407c4b93b56949f21e8f6365e91"
+    }
+  ],
+  "added": [
+    "src/garden.css",
+    "src/warm-theme.css",
+    "src/components/Garden.tsx",
+    "scripts/garden-check.mjs",
+    "docs/GELISTIRME-1.3.md",
+    "docs/KABUL-1.3.md"
+  ],
+  "unchangedCoreFiles": [
+    "src/engine/analysis.test.ts",
+    "src/engine/analysis.ts",
+    "src/engine/csv.ts",
+    "src/engine/evaluation.test.ts",
+    "src/engine/evaluation.ts",
+    "src/engine/genetics.ts",
+    "src/engine/interventions.test.ts",
+    "src/engine/interventions.ts",
+    "src/engine/presets.ts",
+    "src/engine/random.ts",
+    "src/engine/spatial.ts",
+    "src/engine/types.ts",
+    "src/engine/validation.ts",
+    "src/engine/world.test.ts",
+    "src/engine/world.ts",
+    "src/game/challenges.test.ts",
+    "src/game/challenges.ts",
+    "src/storage/worlds.test.ts",
+    "src/storage/worlds.ts",
+    "src/worker/experiment.protocol.ts",
+    "src/worker/experiment.worker.ts",
+    "src/worker/protocol.ts",
+    "src/worker/simulation.worker.ts"
+  ]
+}

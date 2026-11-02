@@ -1,0 +1,182 @@
+{
+  "at": "2026-10-16T07:37:10.438Z",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "checks": [
+    "İlk açılış sıcak temalı sade bahçe; dört büyük araç ve doğru Türkçe metinler",
+    "Bahçe / laboratuvar geçişi DNA, RNG, zaman ve dünyayı aynen koruyor",
+    "Büyük araçlar gerçek besin/canlı ekliyor; dost kartı ve yakın takip çalışıyor",
+    "Hareket azaltma motoru değiştirmiyor ve yenilemede korunuyor",
+    "Gerçek doğum ve nesil değişimi gelişim yolunu, sayıları ve konfeti kutlamasını tetikliyor (93 doğum)",
+    "Yeni dünya eski nesil/doğum kutlamasını ve yolculuğunu sıfırlıyor",
+    "320–1440px yedi ekran genişliğinde taşma yok; bütün ana araçlar en az 44×44px",
+    "Mobil tek dokunuş gerçek besin ekliyor; rehber açılıp kapanıyor",
+    "Mobilde seçilen gerçek dost anında görünür; yakın izle ve kapat çalışır",
+    "Sistem hareket azaltma tercihi canlı olarak uygulanıyor"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "layouts": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "tools": [
+        {
+          "width": 66.25,
+          "height": 67
+        },
+        {
+          "width": 66.25,
+          "height": 67
+        },
+        {
+          "width": 66.25,
+          "height": 67
+        },
+        {
+          "width": 66.25,
+          "height": 67
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "tools": [
+        {
+          "width": 76.25,
+          "height": 67
+        },
+        {
+          "width": 76.25,
+          "height": 67
+        },
+        {
+          "width": 76.25,
+          "height": 67
+        },
+        {
+          "width": 76.25,
+          "height": 67
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "tools": [
+        {
+          "width": 81.25,
+          "height": 67
+        },
+        {
+          "width": 81.25,
+          "height": 67
+        },
+        {
+          "width": 81.25,
+          "height": 67
+        },
+        {
+          "width": 81.25,
+          "height": 67
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "tools": [
+        {
+          "width": 133.75,
+          "height": 67
+        },
+        {
+          "width": 133.75,
+          "height": 67
+        },
+        {
+          "width": 133.75,
+          "height": 67
+        },
+        {
+          "width": 133.75,
+          "height": 67
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "tools": [
+        {
+          "width": 137.25,
+          "height": 56
+        },
+        {
+          "width": 137.25,
+          "height": 56
+        },
+        {
+          "width": 137.25,
+          "height": 56
+        },
+        {
+          "width": 137.25,
+          "height": 56
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "tools": [
+        {
+          "width": 163.25,
+          "height": 56
+        },
+        {
+          "width": 163.25,
+          "height": 56
+        },
+        {
+          "width": 163.25,
+          "height": 56
+        },
+        {
+          "width": 163.25,
+          "height": 56
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "tools": [
+        {
+          "width": 203.3125,
+          "height": 56
+        },
+        {
+          "width": 203.328125,
+          "height": 56
+        },
+        {
+          "width": 203.3125,
+          "height": 56
+        },
+        {
+          "width": 203.328125,
+          "height": 56
+        }
+      ],
+      "background": "rgb(255, 250, 242)"
+    }
+  ],
+  "successful": true
+}

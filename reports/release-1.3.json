@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-16T10:41:06.517017",
+  "artifacts": [
+    {
+      "kind": "source",
+      "path": "D:\\Kutarya-Genesis-Engine\\releases\\Genesis-1.3.0-source-20261016-104104.zip",
+      "bytes": 5320273,
+      "sha256": "7ed7f268702bf63a0bad49ba9e482d383fd26853f9d3a622dd5df32eed3f795c",
+      "entries": 107
+    },
+    {
+      "kind": "web",
+      "path": "D:\\Kutarya-Genesis-Engine\\releases\\Genesis-1.3.0-web-20261016-104104.zip",
+      "bytes": 283401,
+      "sha256": "d03c65b90f8ddb60ea51a861bca3e6068849febfcec5f2bf2d69fd6d9f5ae0b6",
+      "entries": 14
+    }
+  ],
+  "http": {
+    "http://127.0.0.1:5173/": 200,
+    "http://127.0.0.1:5174/genesis/": 200
+  }
+}

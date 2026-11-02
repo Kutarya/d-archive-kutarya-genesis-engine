@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-17T11:47:21.109Z",
+  "results": [
+    {
+      "graphicsApisDisabledForTest": "webgl",
+      "successful": true,
+      "engineContinues": true,
+      "beforeSimulationTime": "00:00",
+      "afterSimulationTime": "00:01",
+      "pageErrors": []
+    },
+    {
+      "graphicsApisDisabledForTest": "all",
+      "successful": true,
+      "engineContinues": true,
+      "beforeSimulationTime": "00:00",
+      "afterSimulationTime": "00:01",
+      "pageErrors": []
+    }
+  ],
+  "simulatedApiFailure": true
+}

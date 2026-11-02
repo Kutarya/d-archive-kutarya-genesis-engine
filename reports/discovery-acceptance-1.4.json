@@ -1,0 +1,230 @@
+{
+  "at": "2026-10-17T11:44:28.328Z",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "checks": [
+    "Bahçe ilk ekranda; canlılar başlangıçta 200% yakın görünümde",
+    "Dost bul yaşayan farklı bir canlıyı seçip takip ediyor; DNA/RNG/zaman değişmiyor, kart görünür",
+    "Tüm bahçe kamerayı merkezliyor ve önceki canlı takibi kamerayı geri çekmiyor",
+    "Araç seçmek adımı tamamlamıyor; gerçek 12 besin eklenince ilerleme ve geçici bildirim var",
+    "Gerçek dost eklemesi üç keşfi tamamlıyor; doğum sayısı yapay olarak artmıyor",
+    "Yükleme keşifleri/bildirimi temizliyor; dolu besin kapasitesinde sahte ilerleme yok",
+    "Yeni dünya seçimi, keşifleri, bildirimi ve yakın kamerayı doğru sıfırlıyor",
+    "320–1440px dokuz genişlikte taşma yok; bahçe erişilebilir, dört ana araç en az 44×44px",
+    "Mobilde dost bul anında kart açıyor; tek dokunuş gerçek besin ekleyip keşfi ilerletiyor",
+    "Hız kontrolü mobilde görünür ve duraklatılmış dünyayı adımlatmıyor",
+    "Odak görünümü yeni alanları klavyeden ayırıyor; Escape ve sistem hareket azaltma çalışıyor",
+    "Canvas 2D bahçesinde de gerçek dostlar, yakın keşif ve korunmuş dünya durumu var"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "worldTop": 634.515625,
+      "tools": [
+        {
+          "width": 67.75,
+          "height": 52
+        },
+        {
+          "width": 67.75,
+          "height": 52
+        },
+        {
+          "width": 67.75,
+          "height": 52
+        },
+        {
+          "width": 67.75,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "worldTop": 634.515625,
+      "tools": [
+        {
+          "width": 77.75,
+          "height": 52
+        },
+        {
+          "width": 77.75,
+          "height": 52
+        },
+        {
+          "width": 77.75,
+          "height": 52
+        },
+        {
+          "width": 77.75,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "worldTop": 636.671875,
+      "tools": [
+        {
+          "width": 83.25,
+          "height": 52
+        },
+        {
+          "width": 83.25,
+          "height": 52
+        },
+        {
+          "width": 83.25,
+          "height": 52
+        },
+        {
+          "width": 83.25,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "worldTop": 616.171875,
+      "tools": [
+        {
+          "width": 135.75,
+          "height": 52
+        },
+        {
+          "width": 135.75,
+          "height": 52
+        },
+        {
+          "width": 135.75,
+          "height": 52
+        },
+        {
+          "width": 135.75,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 700,
+      "scrollWidth": 700,
+      "worldTop": 558.171875,
+      "tools": [
+        {
+          "width": 160.75,
+          "height": 52
+        },
+        {
+          "width": 160.75,
+          "height": 52
+        },
+        {
+          "width": 160.75,
+          "height": 52
+        },
+        {
+          "width": 160.75,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "worldTop": 519,
+      "tools": [
+        {
+          "width": 123.25,
+          "height": 50
+        },
+        {
+          "width": 123.25,
+          "height": 50
+        },
+        {
+          "width": 123.25,
+          "height": 50
+        },
+        {
+          "width": 123.25,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "worldTop": 519,
+      "tools": [
+        {
+          "width": 156.25,
+          "height": 50
+        },
+        {
+          "width": 156.25,
+          "height": 50
+        },
+        {
+          "width": 156.25,
+          "height": 50
+        },
+        {
+          "width": 156.25,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "worldTop": 579,
+      "tools": [
+        {
+          "width": 168,
+          "height": 50
+        },
+        {
+          "width": 168,
+          "height": 50
+        },
+        {
+          "width": 168,
+          "height": 50
+        },
+        {
+          "width": 168,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "worldTop": 517.171875,
+      "tools": [
+        {
+          "width": 194.5625,
+          "height": 50
+        },
+        {
+          "width": 194.578125,
+          "height": 50
+        },
+        {
+          "width": 194.5625,
+          "height": 50
+        },
+        {
+          "width": 194.578125,
+          "height": 50
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "successful": true
+}

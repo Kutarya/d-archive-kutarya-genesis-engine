@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-17T11:48:10.135904+00:00",
+  "version": "1.4.0",
+  "unitTests": 42,
+  "browserChecks": {
+    "garden": 10,
+    "browser": 10,
+    "play": 13,
+    "research": 12,
+    "discovery": 12
+  },
+  "browserCheckTotal": 57,
+  "fallbackChecks": 2,
+  "productionURL": "http://127.0.0.1:5174/genesis/",
+  "protectedUnchangedCount": 23,
+  "artifacts": {
+    "source": {
+      "path": "D:\\Kutarya-Genesis-Engine\\releases\\Genesis-1.4.0-source-20261017-144803.zip",
+      "bytes": 5334543,
+      "fileCount": 109,
+      "sha256": "8cc7923b7242ddabfe41ce47a40fa3a9971fc044756feebe3837d52032b660b5",
+      "crc": "passed",
+      "contentsComparedToWorkspace": true
+    },
+    "web": {
+      "path": "D:\\Kutarya-Genesis-Engine\\releases\\Genesis-1.4.0-web-20261017-144803.zip",
+      "bytes": 287427,
+      "fileCount": 14,
+      "sha256": "48c0c074b7984c202fb1c186c512522a7200e4330855344b4662fec22551a6c4",
+      "crc": "passed",
+      "contentsComparedToWorkspace": true
+    }
+  },
+  "deployment": "local only"
+}

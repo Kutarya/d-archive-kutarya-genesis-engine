@@ -1,0 +1,151 @@
+{
+  "at": "2026-10-16T07:20:02.432Z",
+  "methodology": "120 sn doğal ekosistem; yaşayan gen havuzu ile kurucu gen havuzundan eşit 40 canlı; her çift aynı ortam seed ve başlangıç noktalarında 60 sn; değerlendirmede üreme kapalı. Ölüm sonrası enerji sıfır sayılır. Elle başarı politikası veya nesle bağlı davranış kuralı yok.",
+  "experiments": [
+    {
+      "seed": "genesis-a",
+      "trainingSeconds": 120,
+      "assaySeconds": 60,
+      "births": 186,
+      "deaths": 122,
+      "finalPopulation": 144,
+      "maxGeneration": 5,
+      "selectionPossible": true,
+      "comparisons": [
+        {
+          "seed": "genesis-a/assay-01",
+          "baseline": {
+            "survivalSeconds": 59.61208333333701,
+            "foodPerFounder": 9.675,
+            "finalEnergyPerFounder": 109.07056514395177,
+            "surviving": 39
+          },
+          "selected": {
+            "survivalSeconds": 59.416666666670075,
+            "foodPerFounder": 13.3,
+            "finalEnergyPerFounder": 141.95828324826095,
+            "surviving": 38
+          },
+          "survivalDelta": -0.19541666666693658,
+          "foodDelta": 3.625
+        },
+        {
+          "seed": "genesis-a/assay-02",
+          "baseline": {
+            "survivalSeconds": 57.59499999999963,
+            "foodPerFounder": 6.95,
+            "finalEnergyPerFounder": 90.21071604048448,
+            "surviving": 36
+          },
+          "selected": {
+            "survivalSeconds": 59.93750000000123,
+            "foodPerFounder": 13.575,
+            "finalEnergyPerFounder": 137.3838539833431,
+            "surviving": 39
+          },
+          "survivalDelta": 2.3425000000016,
+          "foodDelta": 6.624999999999999
+        }
+      ]
+    },
+    {
+      "seed": "genesis-b",
+      "trainingSeconds": 120,
+      "assaySeconds": 60,
+      "births": 208,
+      "deaths": 115,
+      "finalPopulation": 173,
+      "maxGeneration": 5,
+      "selectionPossible": true,
+      "comparisons": [
+        {
+          "seed": "genesis-b/assay-01",
+          "baseline": {
+            "survivalSeconds": 60.00000000000032,
+            "foodPerFounder": 8.15,
+            "finalEnergyPerFounder": 109.48520099133584,
+            "surviving": 40
+          },
+          "selected": {
+            "survivalSeconds": 60.00000000000032,
+            "foodPerFounder": 14.05,
+            "finalEnergyPerFounder": 134.48592302552225,
+            "surviving": 40
+          },
+          "survivalDelta": 0,
+          "foodDelta": 5.9
+        },
+        {
+          "seed": "genesis-b/assay-02",
+          "baseline": {
+            "survivalSeconds": 58.85625000000282,
+            "foodPerFounder": 7.675,
+            "finalEnergyPerFounder": 97.17818075544689,
+            "surviving": 37
+          },
+          "selected": {
+            "survivalSeconds": 60.00000000000032,
+            "foodPerFounder": 13.625,
+            "finalEnergyPerFounder": 135.13842651451642,
+            "surviving": 40
+          },
+          "survivalDelta": 1.1437499999975032,
+          "foodDelta": 5.95
+        }
+      ]
+    },
+    {
+      "seed": "genesis-c",
+      "trainingSeconds": 120,
+      "assaySeconds": 60,
+      "births": 201,
+      "deaths": 114,
+      "finalPopulation": 167,
+      "maxGeneration": 5,
+      "selectionPossible": true,
+      "comparisons": [
+        {
+          "seed": "genesis-c/assay-01",
+          "baseline": {
+            "survivalSeconds": 57.248333333329626,
+            "foodPerFounder": 7.05,
+            "finalEnergyPerFounder": 90.17066645258188,
+            "surviving": 36
+          },
+          "selected": {
+            "survivalSeconds": 59.117916666670794,
+            "foodPerFounder": 14.5,
+            "finalEnergyPerFounder": 138.00393572925066,
+            "surviving": 39
+          },
+          "survivalDelta": 1.8695833333411684,
+          "foodDelta": 7.45
+        },
+        {
+          "seed": "genesis-c/assay-02",
+          "baseline": {
+            "survivalSeconds": 58.72583333333512,
+            "foodPerFounder": 7.925,
+            "finalEnergyPerFounder": 103.16171648848956,
+            "surviving": 38
+          },
+          "selected": {
+            "survivalSeconds": 59.691666666670265,
+            "foodPerFounder": 15.225,
+            "finalEnergyPerFounder": 142.94144741534146,
+            "surviving": 39
+          },
+          "survivalDelta": 0.9658333333351479,
+          "foodDelta": 7.3
+        }
+      ]
+    }
+  ],
+  "meanBaselineSurvival": 58.67291666666742,
+  "meanSelectedSurvival": 59.6939583333355,
+  "meanSurvivalDelta": 1.0210416666680804,
+  "meanFoodDelta": 6.141666666666666,
+  "improvedInBothMetrics": true,
+  "elapsedSeconds": 9.094642599999998,
+  "statisticalSignificanceClaimed": false
+}

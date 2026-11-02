@@ -1,0 +1,10 @@
+{
+  "population": "300",
+  "fps": "118FPS",
+  "sps": "61adım/sn",
+  "renderer": "Canlı seç · sürükle · yakınlaştırPixiJS · WebGL",
+  "canvas": 1,
+  "overflow": false,
+  "errors": [],
+  "consoleErrors": []
+}

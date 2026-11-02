@@ -1,0 +1,41 @@
+{
+  "name": "kutarya-genesis-engine",
+  "private": true,
+  "version": "1.4.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview --host 127.0.0.1 --port 5174 --strictPort",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b",
+    "experiment": "node scripts/evolution.ts",
+    "benchmark": "node scripts/benchmark.ts",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:research": "node scripts/research-check.mjs",
+    "test:multiseed": "node scripts/multiseed-check.mjs",
+    "test:play": "node scripts/play-check.mjs",
+    "test:garden": "node scripts/garden-check.mjs",
+    "test:discovery": "node scripts/discovery-check.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.55.0",
+    "pixi.js": "8.22.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "fake-indexeddb": "6.2.5",
+    "oxlint": "1.87.0",
+    "playwright": "1.64.0",
+    "typescript": "6.0.3",
+    "vite": "8.3.4",
+    "vitest": "5.0.4"
+  }
+}

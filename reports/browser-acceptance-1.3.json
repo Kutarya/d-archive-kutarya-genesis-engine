@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-16T07:37:44.203Z",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "checks": [
+    "Worker duraklatma adımları durduruyor",
+    "Gerçek çalışan dünya JSON ile dışa aktarılıyor",
+    "Seçim ve beyin gerçek DNA ağırlık/aktivasyonlarını gösteriyor",
+    "Takip, zoom ve seçili beyin görünümü çalışıyor",
+    "Dünya besin/canlı/tehlike müdahaleleri uygulanıyor",
+    "IndexedDB yenileme sonrası tam dünya/RNG/DNA durumunu koruyor",
+    "Bozuk JSON reddediliyor ve mevcut dünya korunuyor",
+    "JSON içe alma tam durumu geri yüklüyor",
+    "Canvas 2D alternatifi motor durumunu değiştirmiyor",
+    "390px mobil paneller ve zoom kullanılabilir; yatay taşma yok"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "successful": true
+}

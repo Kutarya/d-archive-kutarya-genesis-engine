@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "1.1.0",
+  "options": {
+    "seeds": [
+      "genesis-a"
+    ],
+    "trainingSeconds": 120,
+    "assaySeconds": 60
+  },
+  "experiments": [
+    {
+      "seed": "genesis-a",
+      "trainingSeconds": 120,
+      "assaySeconds": 60,
+      "births": 188,
+      "deaths": 113,
+      "finalPopulation": 155,
+      "maxGeneration": 4,
+      "selectionPossible": true,
+      "comparisons": [
+        {
+          "seed": "genesis-a/assay-01",
+          "baseline": {
+            "survivalSeconds": 59.61208333333701,
+            "foodPerFounder": 9.725,
+            "finalEnergyPerFounder": 108.91518340175317,
+            "surviving": 39
+          },
+          "selected": {
+            "survivalSeconds": 58.4695833333357,
+            "foodPerFounder": 13.975,
+            "finalEnergyPerFounder": 138.00342374562754,
+            "surviving": 36
+          },
+          "survivalDelta": -1.1425000000013128,
+          "foodDelta": 4.25
+        },
+        {
+          "seed": "genesis-a/assay-02",
+          "baseline": {
+            "survivalSeconds": 57.59499999999963,
+            "foodPerFounder": 6.975,
+            "finalEnergyPerFounder": 90.58924136144508,
+            "surviving": 36
+          },
+          "selected": {
+            "survivalSeconds": 58.17708333333759,
+            "foodPerFounder": 13.125,
+            "finalEnergyPerFounder": 133.33537019371448,
+            "surviving": 36
+          },
+          "survivalDelta": 0.5820833333379625,
+          "foodDelta": 6.15
+        }
+      ]
+    }
+  ],
+  "meanBaselineSurvival": 58.60354166666832,
+  "meanSelectedSurvival": 58.32333333333665,
+  "meanSurvivalDelta": -0.28020833333167516,
+  "meanFoodDelta": 5.2,
+  "elapsedSeconds": 15.27879999999702,
+  "statisticalSignificanceClaimed": false,
+  "runtime": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "fixedStepSeconds": 0.016666666666666666
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "at": "2026-10-16T07:38:24.013Z",
+  "browser": "Microsoft Edge (headless)",
+  "url": "http://127.0.0.1:5174/genesis/",
+  "measurements": [
+    {
+      "initialPopulation": 500,
+      "actualPopulationMin": 500,
+      "actualPopulationMax": 500,
+      "fpsMean": 143.5,
+      "fpsMin": 143,
+      "stepsPerSecondMean": 60.166666666666664,
+      "samples": [
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 500
+        },
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 500
+        },
+        {
+          "fps": 143,
+          "stepsPerSecond": 60,
+          "population": 500
+        },
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 500
+        },
+        {
+          "fps": 143,
+          "stepsPerSecond": 61,
+          "population": 500
+        },
+        {
+          "fps": 143,
+          "stepsPerSecond": 60,
+          "population": 500
+        }
+      ],
+      "renderer": "Canlı seç · sürükle · yakınlaştırPixiJS · WebGL",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "initialPopulation": 1000,
+      "actualPopulationMin": 1000,
+      "actualPopulationMax": 1000,
+      "fpsMean": 143,
+      "fpsMin": 141,
+      "stepsPerSecondMean": 60,
+      "samples": [
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 1000
+        },
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 1000
+        },
+        {
+          "fps": 142,
+          "stepsPerSecond": 60,
+          "population": 1000
+        },
+        {
+          "fps": 144,
+          "stepsPerSecond": 60,
+          "population": 1000
+        },
+        {
+          "fps": 143,
+          "stepsPerSecond": 60,
+          "population": 1000
+        },
+        {
+          "fps": 141,
+          "stepsPerSecond": 60,
+          "population": 1000
+        }
+      ],
+      "renderer": "Canlı seç · sürükle · yakınlaştırPixiJS · WebGL",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    }
+  ],
+  "errors": [],
+  "background": {
+    "observedVisibility": "visible",
+    "before": "00:07",
+    "after": "00:10",
+    "realBackgroundTabVerified": false
+  },
+  "deviceGuarantee": false
+}
